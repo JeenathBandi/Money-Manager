@@ -1,0 +1,18 @@
+/* Write your CSS here */
+.column-names-2 {
+  color: #475569;
+  font-family: 'Roboto';
+  margin: 15px;
+}
+.del-btn {
+  background-color: transparent;
+  border: none;
+}
+.del-img {
+  height: 4vh;
+  width: 2vw;
+  margin-top: 17px;
+}
+.row-container {
+  display: flex;
+}

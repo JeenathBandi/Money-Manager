@@ -1,0 +1,64 @@
+/* Write your CSS here */
+.your-balance-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ecfccb;
+  border-radius: 15px;
+  border-color: #84cc16;
+  height: 25vh;
+  width: 30vw;
+  border-style: solid;
+  border-width: 1px;
+}
+.your-income-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #cffafe;
+  border-radius: 15px;
+  border-color: #06b6d4;
+  height: 25vh;
+  width: 30vw;
+  border-style: solid;
+  border-width: 1px;
+}
+.your-expenses-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ede9fe;
+  border-radius: 15px;
+  border-color: #7c3aed;
+  height: 25vh;
+  width: 30vw;
+  border-style: solid;
+  border-width: 1px;
+}
+.imgs {
+  height: 10vh;
+  width: 5vw;
+}
+.balance-details-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+.your-balance {
+  color: #7e858e;
+  font-family: 'Roboto';
+  margin: 0px;
+}
+.total-balance {
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #334155;
+  margin: 0px;
+}
+.money-details-container-elements {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+  align-items: space-around;
+  flex-wrap: wrap;
+}

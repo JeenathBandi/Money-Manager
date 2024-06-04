@@ -1,0 +1,103 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.indigo-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  height: 30vh;
+  padding: 20px;
+  border-radius: 10px;
+  background-size: cover;
+  flex-wrap: wrap;
+}
+.profile-name {
+  color: #475569;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.description {
+  color: #7e858e;
+  font-family: 'roboto';
+}
+.span-element {
+  font-family: 'roboto';
+  color: #0b69ff;
+}
+.money-details-container {
+  display: flex;
+  margin-top: 20px;
+}
+.add-transaction-history-container {
+  display: flex;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+.add-transaction-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  border-color: #d7dfe9;
+  border-style: solid;
+  border-width: 1px;
+  display: flex;
+  padding: 30px;
+  flex-direction: column;
+  flex-grow: 1;
+  margin-right: 20px;
+}
+.add-history-element {
+  background-color: #ffffff;
+  border-color: #d7dfe9;
+  border-style: solid;
+  border-width: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: space-between;
+}
+.add-transaction {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 20px;
+}
+.label-inputs {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+}
+.label-design {
+  font-family: 'Roboto';
+  color: #d7dfe9;
+  font-size: 12px;
+}
+.input-design {
+  border-radius: 5px;
+  border-color: #d7dfe9;
+  border-style: solid;
+  border-width: 1px;
+  background-color: transparent;
+  padding: 5px;
+  outline: none;
+}
+.add-btn {
+  background-color: #0b69ff;
+  border-radius: 5px;
+  color: #ffffff;
+  border: none;
+  padding: 8px;
+  width: 6vw;
+  margin-top: 10px;
+}
+.column-names {
+  color: #334155;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin: 20px;
+}
+.row-container {
+  display: flex;
+}
